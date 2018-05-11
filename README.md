@@ -205,6 +205,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
                         "prolocutor":"张三", // 发言人
                         "content":"讨论吃饭问题"      // 议题          
                         }],
+			"topicList":[{"topic":"议题1"},{...},{...}] //会议议题
 			"errorCode": "0",
 			"errorMessage": ""
 		}
