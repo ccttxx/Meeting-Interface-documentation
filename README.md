@@ -2,8 +2,9 @@
 Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查看每个请求/响应的json内容
 
 ## 1、会议消息接口
+
+### 1-1、请求会议通知列表：
 <pre><code>
-1-1、请求会议通知列表：
 {
 	"iq": {
 		"namespace": "MeetingNoticeRequest",
@@ -17,7 +18,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 }
 </code></pre>
 
-1-1、响应会议通知列表：
+### 1-1、响应会议通知列表：
 <pre><code>
 {
 	"iq": {
