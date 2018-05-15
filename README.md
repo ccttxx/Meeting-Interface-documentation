@@ -634,6 +634,8 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 	           "time" : "",———签到时间 
 		   "address":"",———会议地点
 		   "host":"",———主持人
+		   "latitude":"1111.11111"——————经度
+		   "longitude":"2222.2222"
 		   "errorCode":"0",
 		   "errorMessage":""
 		 }
