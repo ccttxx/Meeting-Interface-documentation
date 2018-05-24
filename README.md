@@ -172,6 +172,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		    "host":"李四", // 主持人
 		    "attendMember":"张三,李四", // 会议参会人员
             "state":"0" , // //开会状态:（2）启动（进行中） （1）待启动 （0）未发布 （3）关闭
+	    	"content":"我是会议内容"
 		    "attachments": [{
 				"id": "/v8ANQAxADUANwAw",
 				"name": "Screenshot_20170613-111037.jpg",
