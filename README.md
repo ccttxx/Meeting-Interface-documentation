@@ -113,7 +113,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 	"iq": {
 		"namespace": "MeetingNoticeRequest",
 		"query": {
-		     "id":"1000", // 会议通知id
+		     "id":"1000", // 会议通知关联id(relatedId)
 		     "type":"3",
 		     "changeType":"1" //1-会议变更 2-会议取消
 		}
@@ -138,6 +138,34 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		    	"topicList":[{"topic":"议题1"},{...},{...}], //会议议题
 		    	"content":"我是会议内容",
 			"reason":"我是变更原因", //会议变更原因
+			"errorCode": "0",
+			"errorMessage": ""
+		}
+	}
+}
+</pre></code>
+
+- - - - 
+
+### 1-5、请求改变会议通知状态：
+<pre><code>
+{
+	"iq": {
+		"namespace": "MeetingNoticeRequest",
+		"query": {
+		     "id":"1000", // 会议通知关联id
+		     "type":"4",
+		}
+	}
+}
+</pre></code>
+
+### 1-5、响应改变会议通知状态：
+<pre><code>
+{
+	"iq": {
+		"namespace": "MeetingNoticeResponse",
+		"query": {
 			"errorCode": "0",
 			"errorMessage": ""
 		}
