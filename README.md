@@ -728,7 +728,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 }
  </pre></code>
  
-  ### 3.1、发起签到历史响应
+ ### 3.1、发起签到历史响应
  <pre><code>
 {
     "iq": {
@@ -739,6 +739,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		   "signList":[{ ———签到人列表
 		   	"userName":"",———姓名
 			"signTime":""———签到时间
+			"avatar":""-----用户头像
 		   }]
 		   "errorCode":"0",
 		   "errorMessage":""
