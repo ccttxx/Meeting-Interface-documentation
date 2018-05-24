@@ -42,10 +42,10 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 
 ----
 
-### 1-2、请求会议通知详情：
+~~### 1-2、请求会议通知详情：~~
 
-<pre><code>
-{
+
+~~{
 	"iq": {
 		"namespace": "MeetingNoticeRequest",
 		"query": {
@@ -54,13 +54,13 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 			  "type":"1"
 		}
 	}
-}
-</code></pre>
+}~~
 
-### 1-2、响应会议通知详情：
 
-<pre><code>
-{
+~~### 1-2、响应会议通知详情：~~
+
+
+~~{
 	"iq": {
 		"namespace": "MeetingNoticeResponse",
 		"query": {
@@ -71,8 +71,8 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 			"errorMessage": ""
 		}
 	}
-}
-</pre></code>
+}~~
+
 
 ---
 
