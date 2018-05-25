@@ -30,7 +30,8 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 				"relatedId":"",//关联id
 				    "name": "讨论吃饭的会议", //会议名称
 				    "time": "2018:01:22 10:10", //通知发起时间
-				    "msgType":"0"//消息类型：0-参会通知 1-会议变更 2-会议取消
+				    "initiator":"",//发起人
+				    "msgType":"0"//消息类型：0-参会通知 1-会议变更 2-会议取消
 				    "state": "0", //处理状态:0-未读 1-已读 2-参加 3-请假
 			}],
 			"errorCode": "0",
