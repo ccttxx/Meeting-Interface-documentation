@@ -138,7 +138,6 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		    	"topicList":[{"topic":"议题1"},{...},{...}], //会议议题
 		    	"content":"我是会议内容",
 			"reason":"我是变更原因", //会议变更原因
-			"isProcessed":"1",//0-未处理 1-已处理（隐藏请假按钮）
 			"errorCode": "0",
 			"errorMessage": ""
 		}
@@ -167,6 +166,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 	"iq": {
 		"namespace": "MeetingNoticeResponse",
 		"query": {
+			"isProcessed":"1",//0-未处理 1-已处理（隐藏请假按钮）
 			"errorCode": "0",
 			"errorMessage": ""
 		}
