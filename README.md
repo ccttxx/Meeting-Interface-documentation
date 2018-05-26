@@ -87,6 +87,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		     "designate":"7681" ,// 指派人id
 		     "reason":"有事", // 理由 
          		"attachmentGUID": "4f35305b-19b1-4e62-8ab6-4712783f89d1", //  附件的GUID
+			"isChanging":"0",//0-会议详情 1-会议变更
 		     "type":"2"
 		}
 	}
