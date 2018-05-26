@@ -154,7 +154,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 	"iq": {
 		"namespace": "MeetingNoticeRequest",
 		"query": {
-		     "id":"1000", // 会议通知关联id
+		     "id":"1000", // 会议通知id
 		     "type":"4",
 		}
 	}
