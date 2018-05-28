@@ -180,7 +180,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 - - - - 
 
 ## 2、会议管理接口
-### 2-1、请求我参与会议列表：
+### 2-1、请求我的会议-待开列表：
 <pre><code>
 {
 	"iq": {
@@ -195,7 +195,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 }
 </pre></code>
 
-### 2-1、响应我参与会议列表：
+### 2-1、响应我的会议-待开列表：
 <pre><code>
 {
 	"iq": {
@@ -206,7 +206,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 			      "id":"1000", //会议消息id
 				    "name": "讨论吃饭的会议", //会议名
 				    "time": "2018:01:22 10:10", //开会时间
-				    "state": "0", //开会状态:（2）进行中 （1）待启动 （0）未发布 （3）关闭
+				    "state": "0", //开会状态:（2）进行中 （1）未开始 （3）已结束
 				    "address": "南方软件园" //会议地点
 			}],
 			"errorCode": "0",
