@@ -741,7 +741,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
         "namespace": "MeetingSignResponse"
         "query": {
 	          "signNum" : "",————————签到人数
-	           "notSignNum" : "",———未签到人数
+	           "wholeNum" : "",———总参会人数
 		   "signList":[{ ———签到人列表
 		   	"userName":"",———姓名
 			"signTime":""———签到时间
