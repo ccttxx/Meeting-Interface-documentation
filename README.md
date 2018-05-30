@@ -225,7 +225,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 	"iq": {
 		"namespace": "MeetingManageRequest",
 		"query": {
-			  "id": "10", // 会议id
+			  "id": "10", // 会议id/会议通知的relatedId
         	  "msgId": "1000" ,// 消息id
 		     "type":"1"
 		}
