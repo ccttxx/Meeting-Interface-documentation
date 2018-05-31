@@ -170,7 +170,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		"namespace": "MeetingNoticeResponse",
 		"query": {
 			"isProcessed":"1",//0-未处理 1-已处理（隐藏请假按钮）
-			"reason":"我是请假理由",
+			"leaveReason":"我是请假理由",
 			"designated":"张三", //指派人
 			"errorCode": "0",
 			"errorMessage": ""
