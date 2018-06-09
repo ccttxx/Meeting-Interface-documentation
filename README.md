@@ -748,7 +748,8 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		   	"userName":"",———姓名
 			"signTime":""———签到时间
 			"avatar":""-----用户头像
-		   }]
+			"userId":"7861"----用户ID
+		   }]
 		   "errorCode":"0",
 		   "errorMessage":""
 		 }
