@@ -150,7 +150,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 
 - - - - 
 
-### 1-5、请求改变会议通知状态：
+### 1-5、请求会议通知状态：
 <pre><code>
 {
 	"iq": {
@@ -163,7 +163,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 }
 </pre></code>
 
-### 1-5、响应改变会议通知状态：
+### 1-5、响应会议通知状态：
 <pre><code>
 {
 	"iq": {
