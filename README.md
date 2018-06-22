@@ -732,6 +732,8 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
         "query": {
 	          "id" : "23434",————————会议ID
 	           "type" : "2",———请求类型（1、签到  2、签到历史）
+		   "msgType":"0",————消息类型：0-参会通知 1-会议变更 2-会议取消
+		   "listType":"1"————列表类型：1-参会人员 2-签到历史
         }
     }
 }
