@@ -117,6 +117,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		"namespace": "MeetingNoticeRequest",
 		"query": {
 		     "id":"1000", // 会议通知关联id(relatedId)
+		     "msgId": "1000" ,// 消息id
 		     "type":"3",
 		     "changeType":"1" //1-会议变更 2-会议取消
 		}
