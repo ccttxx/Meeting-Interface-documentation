@@ -141,6 +141,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 		    	"topicList":[{"topic":"议题1"},{...},{...}], //会议议题
 		    	"content":"我是会议内容",
 			"reason":"我是变更原因", //会议变更原因
+			"changeType":"1"//1-会议变更 2-会议取消
 			"errorCode": "0",
 			"errorMessage": ""
 		}
