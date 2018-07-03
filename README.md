@@ -279,7 +279,8 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 				"href": "/servlet/mobileAttachmentServlet?type=0&attachPK=/v8ANQAxADUANwAw",
 			}]， // 会议纪要
                         "agendaList":[{
-                        "time":"2018年03月02日15:19", // 发言时间
+                        "stratTime":"15:19", // 开始时间
+                        "endTime":"15:19", // 结束时间
                         "prolocutor":"张三", // 发言人
                         "content":"讨论吃饭问题"      // 议题          
                         }],
