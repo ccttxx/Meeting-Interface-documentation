@@ -290,6 +290,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
 			"voteNum":"1",//投票数量
 			"msgNum":"2",//消息数量
 			"meetingDeleteNewsList":"[{"newsId":"123"},{...},{...}]",//会议已删除消息的ID号集合
+			"hasNotVote":"0",//是否有未投票 0-无 1-有
 			"signStatus":"0",//为空-会议无需签到，0-未签到，1-已签到
 			"errorCode": "0",
 			"errorMessage": ""
@@ -582,6 +583,7 @@ Meeting Interface documentation(for FE OA v6.6),建议使用json美化工具查�
                          "voteNumber" : "12", ——————— 已投票人数
                          "voteType" : "0", ———————投票状态(0)未投票 ，(1)已投票，（2）已过期
 			    }],
+	"hasNotVote":"0",//是否有未投票 0-无 1-有
      "errorCode": "0", 
      "errorMessage": ""
 		}
